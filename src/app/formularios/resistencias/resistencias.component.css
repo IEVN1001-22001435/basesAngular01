@@ -1,0 +1,101 @@
+.resistencias {
+    width: 100%;
+    box-sizing: border-box;
+}
+.titulo-resistencia {
+    border: 1px solid black;
+    background-color: gray;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.tabla-completa {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+.tabla-completa th, .tabla-completa td {
+    text-align: center;
+    padding: 0;
+    vertical-align: middle;
+}
+.tabla-completa th {
+    background-color: gray;
+    color: white;
+    padding: 4px;
+}
+.tabla-completa td label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1px 5px;
+}
+.tabla-completa td span {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.celda-negra span { background-color: black; color: white; }
+.celda-cafe span { background-color: #8B4513; }
+.celda-roja span { background-color: red; }
+.celda-naranja span { background-color: orange; }
+.celda-amarilla span { background-color: yellow;}
+.celda-verde span { background-color: green; }
+.celda-azul span { background-color: blue; }
+.celda-morada span { background-color: purple; }
+.celda-gris span { background-color: gray; }
+.celda-blanca span { background-color: white;}
+.celda-dorada span { background-color: gold; }
+.celda-plateada span { background-color: silver;}
+
+.boton-calcular {
+    display: block;
+    width: 20%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* --- ESTILOS PARA LA TABLA DE RESULTADOS --- */
+
+.resultados-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla-resultados {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-resultados th,
+.tabla-resultados td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-resultados th {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-resultados tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.tabla-resultados tbody tr:hover {
+    background-color: #f1f1f1;
+}

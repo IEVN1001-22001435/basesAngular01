@@ -1,0 +1,108 @@
+<div class="resistencias">
+    <h1 class="titulo-resistencia">RESISTENCIAS</h1>
+    <div>
+        <table class="tabla-completa">
+            <thead>
+                <tr>
+                    <th class="encabezado-columna">1ra Banda</th>
+                    <th class="encabezado-columna">2da Banda</th>
+                    <th class="encabezado-columna">3ra Banda</th>
+                    <th class="encabezado-columna">Tolerancia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="celda-negra"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="0"> <span>0</span></label></td>
+                    <td class="celda-negra"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="0"> <span>0</span></label></td>
+                    <td class="celda-negra"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="0"> <span>0</span></label></td>
+                    <td class="celda-dorada"><label><input type="radio" name="tolerancia" [(ngModel)]="seleccion.tolerancia" [value]="0.05"> <span>Dorada 5%</span></label></td>
+                </tr>
+                <tr>
+                    <td class="celda-cafe"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="1"> <span>1</span></label></td>
+                    <td class="celda-cafe"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="1"> <span>1</span></label></td>
+                    <td class="celda-cafe"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="1"> <span>1</span></label></td>
+                    <td class="celda-plateada"><label><input type="radio" name="tolerancia" [(ngModel)]="seleccion.tolerancia" [value]="0.10"> <span>Plateado 10%</span></label></td>
+                </tr>
+                <tr>
+                    <td class="celda-roja"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="2"> <span>2</span></label></td>
+                    <td class="celda-roja"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="2"> <span>2</span></label></td>
+                    <td class="celda-roja"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="2"> <span>2</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-naranja"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="3"> <span>3</span></label></td>
+                    <td class="celda-naranja"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="3"> <span>3</span></label></td>
+                    <td class="celda-naranja"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="3"> <span>3</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-amarilla"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="4"> <span>4</span></label></td>
+                    <td class="celda-amarilla"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="4"> <span>4</span></label></td>
+                    <td class="celda-amarilla"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="4"> <span>4</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-verde"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="5"> <span>5</span></label></td>
+                    <td class="celda-verde"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="5"> <span>5</span></label></td>
+                    <td class="celda-verde"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="5"> <span>5</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-azul"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="6"> <span>6</span></label></td>
+                    <td class="celda-azul"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="6"> <span>6</span></label></td>
+                    <td class="celda-azul"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="6"> <span>6</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-morada"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="7"> <span>7</span></label></td>
+                    <td class="celda-morada"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="7"> <span>7</span></label></td>
+                    <td class="celda-morada"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="7"> <span>7</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-gris"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="8"> <span>8</span></label></td>
+                    <td class="celda-gris"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="8"> <span>8</span></label></td>
+                    <td class="celda-gris"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="8"> <span>8</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+                <tr>
+                    <td class="celda-blanca"><label><input type="radio" name="banda1" [(ngModel)]="seleccion.banda1" [value]="9"> <span>9</span></label></td>
+                    <td class="celda-blanca"><label><input type="radio" name="banda2" [(ngModel)]="seleccion.banda2" [value]="9"> <span>9</span></label></td>
+                    <td class="celda-blanca"><label><input type="radio" name="banda3" [(ngModel)]="seleccion.banda3" [value]="9"> <span>9</span></label></td>
+                    <td class="celda-vacia"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="resistencia-contenedor">
+        <button class="boton-calcular" (click)="calcularResistencia()">Calcular Resistencia</button>
+    </div>
+
+    <div *ngIf="resultados" class="resultados-container">
+        <table class="tabla-resultados">
+            <thead>
+                <tr>
+                    <th>Color 1</th>
+                    <th>Color 2</th>
+                    <th>Color 3</th>
+                    <th>Tolerancia</th>
+                    <th>Valor</th>
+                    <th>Valor Máximo</th>
+                    <th>Valor Mínimo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ resultados.color1 }}</td>
+                    <td>{{ resultados.color2 }}</td>
+                    <td>{{ resultados.color3 }}</td>
+                    <td>{{ resultados.tolerancia }}</td>
+                    <td>{{ resultados.valor }}</td>
+                    <td>{{ resultados.valorMaximo }}</td>
+                    <td>{{ resultados.valorMinimo }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
